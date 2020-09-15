@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.d1{
+				width: 600px;
+				height: 300px;
+				margin: 0 auto;
+				font-family: "楷体";
+				font-weight: 900;
+				font-size: 60px;
+				text-align: center;
+				line-height: 300px;
+				/* 水平偏移  */
+				text-shadow: 10px 5px 10px red;
+				
+			}
+			/* 文字  */
+			.d2{
+				width: 600px;
+				height: 300px;
+				margin: 0 auto;
+				font-family: "楷体";
+				font-weight: 900;
+				font-size: 60px;
+				text-align: center;
+				line-height: 300px;
+				color: #FFFFFF;
+				text-shadow: 0px 0px 10px #000000;
+				
+			}
+			/* 动画效果 */
+			.d3{
+				width: 600px;
+				height: 300px;
+				margin: 0 auto;
+				font-family: "楷体";
+				font-weight: 900;
+				font-size: 60px;
+				text-align: center;
+				line-height: 300px;
+				color: #FFFFFF;
+				text-shadow: 0px 0px 10px goldenrod,0px 0px 10px orange;
+				animation: glimmer 3s infinite;
+			}
+			/* 3D效果 */
+			.d4{
+				width: 600px;
+				height: 300px;
+				margin: 0 auto;
+				font-family: "楷体";
+				font-weight: 900;
+				font-size: 60px;
+				text-align: center;
+				line-height: 300px;
+				color: #FFFFFF;
+				text-shadow: 2px 2px 3px red,4px 4px 3px orange,8px 8px 3px yellow;
+			}
+			@keyframes glimmer{
+				from{
+					text-shadow: 0px 0px 10px red,0px 0px 10px yellow;
+				}
+				to{
+					text-shadow: 0px 0px 10px goldenrod,0px 0px 10px orange;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="d1">Hello World 1</div>
+		<div class="d2">Hello World 2</div>
+		<div class="d3">Hello World 3</div>
+		<div class="d4">Hello World 4</div>
+	</body>
+</html>
